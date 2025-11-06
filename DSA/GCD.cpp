@@ -74,3 +74,6 @@ int main()
 }
 */
 
+
+// " __gcd(a, b) " is an inbuilt function in C++ to find GCD of two numbers.
+
