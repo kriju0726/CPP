@@ -87,12 +87,14 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+ 
 bool sortele(pair<int, int> a, pair<int, int> b)
 {
   if (a.second == b.second)
     return a.first < b.first;
   return a.second > b.second;
 }
+ 
 void Sortelementsbyfreq(int arr[], int n)
 {
   unordered_map<int, int> map;
@@ -116,6 +118,8 @@ void Sortelementsbyfreq(int arr[], int n)
   }
   cout << endl;
 }
+
+
 int main()
 {
   int arr[] = {3, 3, 5, 2, 1, 1, 2};
